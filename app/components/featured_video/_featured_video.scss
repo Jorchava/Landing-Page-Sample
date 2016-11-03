@@ -1,0 +1,11 @@
+/* ----- Featured video component styles ----- */
+
+.featured-video {
+	img{
+		width: 100%;
+	}
+	@include large {
+		padding: 10px;
+		max-height: 324px;
+	}
+}

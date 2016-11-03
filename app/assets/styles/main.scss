@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    MAIN (imports)
+\*------------------------------------*/
+
+/* ----- Base/Shared Styles ----- */
+
+@import "normalize";
+@import "vars";
+@import "mixins";
+@import "fancybox";
+@import "global";
+
+
+/* ----- Component Styles ----- */
+
+// Page-specific overrides for a given component should still be placed in the *component* scss.
+@import "../../components/banner/banner";
+@import "../../components/featured_video/featured_video";
+@import "../../components/rich_text_block/rich_text_block";
+@import "../../components/media_gallery/media_gallery";
+@import "../../components/social_media_bar/social_media_bar";
+
+
+/* ----- Page-Specific Styles ----- */
+
+@import "../../pages/index/index";

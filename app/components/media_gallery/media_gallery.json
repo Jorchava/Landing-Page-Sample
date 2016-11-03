@@ -1,0 +1,52 @@
+{
+    "thumbnails": [{
+            "file" : "article1",
+            "href": "",
+            "img": "../assets/images/WTFast_Landing-thumb-1.png",
+            "alt": "",
+            "quote": "\"This is bonkers.\"",
+            "logo": "../assets/images/adweek-logo.png",
+            "logoAlt": ""
+        },
+
+        {
+            "file" : "article2",
+            "href": "",
+            "img": "../assets/images/WTFast_Landing-thumb-2.png",
+            "alt": "",
+            "quote": "\"Absolutely epic!\"",
+            "logo": "../assets/images/radar-logo.png",
+            "logoAlt": ""
+        },
+
+        {
+            "file" : "article3",
+            "href": "",
+            "img": "../assets/images/WTFast_Landing-thumb-3.png",
+            "alt": "",
+            "quote": "\"Spectaculaire!\"",
+            "logo": "../assets/images/ladn-logo.png",
+            "logoAlt": ""
+        },
+
+        {
+            "file" : "article4",
+            "href": "",
+            "img": "../assets/images/WTFast_Landing-thumb-4.png",
+            "alt": "",
+            "quote": "\"man oh man.\"",
+            "logo": "../assets/images/fastco-logo.png",
+            "logoAlt": ""
+        },
+
+        {
+            "file" : "article5",
+            "href": "",
+            "img": "../assets/images/WTFast_Landing-thumb-5.png",
+            "alt": "",
+            "quote": "\"Death defying feat.\"",
+            "logo": "../assets/images/mashable-logo.png",
+            "logoAlt": ""
+        }
+    ]
+}

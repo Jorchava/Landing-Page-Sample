@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    VARIABLES
+\*------------------------------------*/
+
+/* ----- Branding Colors ----- */
+
+$sky : rgb(128, 188, 229);
+$white : rgb(255, 255, 255);
+$dark-opacity : rgba(0, 0, 0, .3);
+$light-opacity : rgba(255, 255, 255, .3);
+
+
+/* ----- Responsive ----- */
+
+// Starting macro breakpoints - use more as needed in component and page files
+
+$medium : 768px;
+$large  : 1024px;

@@ -1,0 +1,23 @@
+{
+	"title" : "Share this:",
+    "icons": [
+        { "icon": "../assets/images/fb-logo.png",
+        	"url": "",
+        	"alt": "" },
+        { "icon": "../assets/images/yt-logo.png",
+        	"url": "",
+        	"alt": "" },
+        { "icon": "../assets/images/tw-logo.png",
+        	"url": "",
+        	"alt": "" },
+        { "icon": "../assets/images/pt-logo.png",
+        	"url": "",
+        	"alt": "" },
+        { "icon": "../assets/images/gp-logo.png",
+        	"url": "",
+        	"alt": "" },
+        { "icon": "../assets/images/is-logo.png",
+        	"url": "",
+        	"alt": "" }
+    ]
+}

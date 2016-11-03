@@ -1,0 +1,15 @@
+/* ----- Rich text block component styles ----- */
+
+.rich-text-block {
+	font-size: 12px;
+	text-align: justify;
+	@include large {
+		padding: 40px;
+		max-width: 484px;
+		max-height: 324px;
+		p{
+			margin: 0;
+			padding-bottom: 20px;
+		}
+	}
+}

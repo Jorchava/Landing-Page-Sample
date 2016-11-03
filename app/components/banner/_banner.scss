@@ -1,0 +1,11 @@
+/* ----- Banner component styles ----- */
+
+.banner{
+	header{
+		background: url(/../assets/images/logo_small.png) center no-repeat;
+		padding: 70px 0;
+		@include large {
+			background: url(/../assets/images/logo_big.png) left no-repeat;
+		}
+	}
+}

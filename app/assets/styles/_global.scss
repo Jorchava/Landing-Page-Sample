@@ -1,0 +1,106 @@
+/*------------------------------------*\
+    GLOBAL/BASE STYLES
+\*------------------------------------*/
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 62.5%; // set root font size to ~10px for easy calculation
+}
+
+html {
+    box-sizing: border-box; // subtract padding from declared widths
+    min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.4; // unitless line-height to be based off the element's size
+    background: $sky url(/../assets/images/BG_Mobile.jpg) no-repeat;
+    background-position: center bottom;
+    color: $white;
+    @include large {
+        background-image: url(/../assets/images/BG_Desktop.jpg);
+        background-position: 0 0;
+        background-size: 100% 100%;
+    }
+}
+
+section {
+    padding-left: 10px;
+    padding-right: 10px;
+    @include large {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1048px;
+}
+
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.flex--column-to-row {
+    display: flex;
+    flex-direction: column;
+    @include large {
+        flex-direction: row;
+    }
+}
+
+.container{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    @include large {
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    &--dark {
+        background-color: $dark-opacity;
+    }
+    &--light {
+        background-color: $light-opacity;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

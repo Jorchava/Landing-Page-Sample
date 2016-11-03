@@ -1,0 +1,54 @@
+/* ----- Media gallery component styles ----- */
+
+.media-gallery {
+	img{
+		width: 100%;
+		height: auto;
+		@include large {
+			width: auto;
+		}
+	}
+}
+
+.media-gallery__thumbnail {
+	position: relative;
+	min-height: 360px;
+	@include large {
+		min-height: 276px;
+	}
+	blockquote{
+		margin: 10px auto;
+		p{
+			margin: 0;
+			text-transform: uppercase;
+		}
+		footer{
+			display: flex;
+			flex-direction: row-reverse;
+			img{
+				margin: 5px 70px;
+				width: auto;
+				@include large {
+					margin: 5px 30px;
+				}
+			}
+		}
+	}
+	@include large {
+		padding: 10px 0 0;
+	}
+}
+
+.media-gallery__borders {
+	border-top: 1px solid $white;
+	border-bottom: 1px solid $white;
+	margin: 20px 10px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	@include large {
+		max-width: 190px;
+		margin: 20px auto;
+	}
+}
