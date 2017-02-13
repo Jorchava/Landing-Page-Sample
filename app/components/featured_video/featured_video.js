@@ -6,11 +6,17 @@ APP.featuredVideo = (function() {
 
     var bindEventsToUI = function() {
 
-        var $video = $('.featured-video__modal-trigger');
-
-        $video.fancybox({
-            'content': '<iframe width="560" height="315" src=' + $video.attr('data-video') + ' frameborder="0" allowfullscreen></iframe>'
-        });
+            $('.featured-video__modal-trigger').fancybox({
+                maxWidth    : 800,
+                maxHeight   : 600,
+                fitToView   : false,
+                width       : '70%',
+                height      : '70%',
+                autoSize    : false,
+                closeClick  : false,
+                openEffect  : 'none',
+                closeEffect : 'none'
+            });
 
     };
 

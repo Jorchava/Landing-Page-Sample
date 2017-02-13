@@ -9,38 +9,19 @@ APP.mediaGallery = (function() {
         var $articleContent = $('.article-content');
         var $articleVideo = $('.featured-video__modal-trigger');
 
-        /*$articleTabs.click(function(e){
-            e.preventDefault();
-            var id = $(this).attr('data-id');
-            console.log(id);
-            $.get('../assets/data/articles.json', function(data){
-                console.log(data.articles[id].article);
-            });
-        });*/
-
-        /*$.each($articleTabs, function() {
-            var id = $(this).attr('data-id');
+        $.each($articleTabs, function() {
+            var file = $(this).attr('data-file');
             $(this).click(function(e) {
                 e.preventDefault();
                 $.ajax({
                     type: 'GET',
-                    url: '../assets/data/articles.json',
+                    url: '../assets/data/' + file + '.json',
                     dataType: 'json',
                     success: function(data) {
-                        $articleContent.html('<p>' + data.articles[id].article + '</p>');
+                        $articleContent.html('<p>' + data.article.articleText + '</p>');
+                        $articleVideo.attr('href', data.article.articleVideo);
                     }
                 });
-            });
-        });*/
-
-        $articleTabs.click(function(e){
-            e.preventDefault();
-            var file = $(this).attr('data-file');
-            //console.log(file);
-            $.get('../assets/data/' + file + '.json', function(data){
-                //console.log(data.article.articleText);
-                $articleContent.html('<p>' + data.article.articleText + '</p>');
-                $articleVideo.attr('data-video', data.article.articleVideo);
             });
         });
 
